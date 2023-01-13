@@ -1,0 +1,78 @@
+h1{
+ color: green;
+ font-size: 33px;
+}
+
+.style_span{
+ color: red;
+ font-size:10px;
+ font-weight: bold;
+}
+
+.test_padding{
+padding: 15px;
+color: gold;
+}
+
+table, th, td{
+border: 2px solid purple;
+}
+
+table{
+ border-collapse: collapse;
+}
+
+caption#caption1{
+ font-style: italic;
+}
+
+div{
+background-color: lightblue;
+}
+
+ul{
+color: yellow;
+font-weight: bold;
+}
+
+ol{
+color: blue;
+}
+ul, ol{
+ font-size: 14px;
+}
+
+[href^="https"]{
+background-color: gold;
+}
+
+p {
+  color: black;
+}
+
+.red {
+  color: red;
+}
+
+#blue {
+  color: blue;
+}
+
+.paragraph {
+  color: red;
+}
+
+.paragraph.color-primary {
+  color: blue;
+}
+
+p#test-hover:hover{
+font-size: 20px;
+background-color: purple;
+color: white;
+}
+
+p#test-first-letter::first-letter {
+ font-size: 130%;
+ color: pink;
+}
